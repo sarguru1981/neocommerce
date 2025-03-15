@@ -1,0 +1,123 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs & Runtime Data
+logs/
+*.log
+.yarn-integrity
+.pids
+*.pid
+*.seed
+*.pid.lock
+.nyc_output/
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage & Testing
+coverage/
+*.lcov
+jest-cache/
+jest-transform-cache/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ESLint & Prettier cache
+.eslintcache
+.stylelintcache
+
+# Monorepo & Nx Caching
+dist/
+.tmp/
+.out/
+.nx/
+nx-cache/
+workspace.json
+nx.json
+tools/
+
+# Frontend: Next.js (React.js)
+.next/
+out/
+public/sw.js
+public/workbox-*.js
+public/worker-*.js
+public/_next/
+
+# Frontend: React Native
+**/android/.gradle
+**/android/.idea
+**/android/local.properties
+**/android/app/build
+**/android/app/src/main/assets/index.android.bundle
+**/ios/Pods/
+**/ios/build/
+**/ios/*.xcodeproj/
+**/ios/*.xcworkspace/
+**/ios/DerivedData/
+**/ios/.swiftpm/
+**/ios/.symlinks/
+**/ios/.DS_Store
+**/ios/*.xcuserdata/
+
+# Backend: NestJS (Microservices)
+**/services/**/dist/
+**/services/**/node_modules/
+**/services/**/.env
+**/services/**/.cache
+**/services/**/build/
+
+# Database & Storage
+data/
+dumps/
+sql/
+docker-data/
+**/prisma/migrations/
+**/prisma/.db/
+**/prisma/.dev.db
+**/prisma/.sqlite
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Vercel & Firebase (Deployment)
+.vercel/
+.firebase/
+.firebase-analytics-debug.log
+
+# Docker & Kubernetes
+.docker/
+docker-compose.override.yml
+.k8s/
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.iml
+*.sublime-*
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+
+# Misc
+.DS_Store
+Thumbs.db
+*.pem
+*.crt
+*.key
+*.pfx
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
