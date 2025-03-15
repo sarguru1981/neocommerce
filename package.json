@@ -1,21 +1,27 @@
 {
-  "name": "@neo-commerce/source",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
-  "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "@nx/js": "20.6.0",
-    "@swc-node/register": "~1.9.1",
-    "@swc/core": "~1.5.7",
-    "@swc/helpers": "~0.5.11",
-    "nx": "20.6.0",
-    "prettier": "^2.6.2",
-    "tslib": "^2.3.0",
-    "typescript": "~5.7.2"
+  "name": "neo-commerce",
+  "version": "1.0.0",
+  "description": "Monorepo for NeoCommerce – Frontend & Backend",
+  "scripts": {
+    "build": "nx run-many --target=build --all",
+    "start": "nx run-many --target=start --all",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all",
+    "format": "nx format:write",
+    "deploy": "nx run-many --target=deploy --all"
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "private": true,
+  "devDependencies": {
+    "@nrwl/cli": "latest",
+    "@nrwl/workspace": "latest",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0"
+  },
+  "dependencies": {
+    "nx": "latest",
+    "dotenv": "^16.0.0"
+  }
 }
